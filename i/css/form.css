@@ -1,0 +1,145 @@
+@charset "utf-8";
+.page{
+	background:url(../images/bg-index.png) no-repeat;
+	background-size:cover;
+}
+.wr-form.woocommerce{
+	color:#333;
+}
+.wr-form.woocommerce input[type="text"],.wr-form.woocommerce input[type="email"],.wr-form.woocommerce input[type="password"]{
+	background-color:rgba(255, 255, 255, 0.2);
+	border:1px #e0e0e0 solid;
+	border-radius:3px;
+	padding:3px 15px;
+	width:calc(100% - 175px);
+	margin-left:20px;
+}
+.wr-form.woocommerce label{
+	font-size:13px;
+	width:110px;
+	float:right;
+}
+.wr-form.woocommerce .required{
+	color:#ff1744}
+.wr-form.woocommerce .woocommerce-FormRow,.wr-form.woocommerce .form-group{
+	padding:3px 0;
+	width:50%;
+	float:right;
+}
+.wr-form.woocommerce .user-role,.woocommerce-LostPassword{
+	margin-top:10px;
+	width:100%;
+}
+.wr-form.woocommerce .user-role label{
+	width:auto;
+	margin:0 10px;
+}
+.wr-form.woocommerce label[for="tc_agree"]{
+	width:calc(100% - 20px);
+	float:left;
+}
+.wr-form.woocommerce input[type="radio"]{
+	margin:6px 0 0 5px;
+	float:right;
+}
+.wr-form.woocommerce .form-row small{
+	color:#666;
+	direction:ltr;
+	margin:8px 0 0 34px;
+	float:left;
+}
+.woocommerce-privacy-policy-text{
+	width:100%;
+	float:right;
+	margin:15px 0 10px 0;
+	font-size:12px;
+	text-align:center;
+}
+.wr-form input[type="submit"],button[type="submit"]{
+	float:right;
+	padding:3px 15px;
+	font-size:15px;
+	border:0;
+	background-color:#51ac79;
+	border-radius:3px;
+	color:#fff;
+	cursor:pointer;
+}
+.woocommerce-simple-registration-login-link{
+	float:right;
+	margin:2px 10px 0 0;
+}
+.woocommerce-simple-registration-login-link a{
+	color:#333;
+	font-size:14px;
+}
+.wr-form.woocommerce .woocommerce-form-row,.woocommerce-LostPassword{
+	width:100%;
+	float:right;
+	padding:3px 0;
+}
+.wr-form.woocommerce .woocommerce-form-row--wide label{
+	width:145px;
+}
+.wr-form.woocommerce .woocommerce-form-row--wide input[type="text"],.wr-form.woocommerce .woocommerce-form-row--wide input[type="email"],.wr-form.woocommerce .woocommerce-form-row--wide input[type="password"]{
+	width:calc(100% - 215px);
+	float:left;
+}
+.woocommerce-privacy-policy-text a,.woocommerce-LostPassword a,.wr-form.woocommerce label[for="tc_agree"] a,.wr-form input[type="submit"],.woocommerce-simple-registration-login-link a,button[type="submit"]{
+	font-family:Medium;
+}
+.woocommerce-privacy-policy-text a:hover,.woocommerce-LostPassword a:hover,.wr-form.woocommerce label[for="tc_agree"] a:hover,.woocommerce-simple-registration-login-link a:hover{
+	color:#3f855f;
+}
+.woocommerce-LostPassword a{
+	font-size:14px;
+}
+.wr-form input[type="submit"]:hover,button[type="submit"]:hover{
+	background-color:#3f855f;
+}
+.wr-form input[type="submit"]:focus,button[type="submit"]:focus{
+	background-color:#ff5252;
+}
+.wr-form.woocommerce input[type="text"]:hover,.wr-form.woocommerce input[type="email"]:hover,.wr-form.woocommerce input[type="password"]:hover{
+	border-color:#bdbdbd;
+	background-color:rgba(255, 255, 255, 0.3);
+}
+.wr-form.woocommerce input[type="text"]:focus,.wr-form.woocommerce input[type="email"]:focus,.wr-form.woocommerce input[type="password"]:focus{
+	border-color:#51ac79;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+.woocommerce-form__label-for-checkbox{
+	float:right;
+	margin:7px 10px 0 0;
+}
+@media only screen and (max-width:650px){
+	.wr-form.woocommerce .woocommerce-FormRow,.wr-form.woocommerce .form-group{
+	width:100%;
+}
+.wr-form.woocommerce input[type="text"],.wr-form.woocommerce input[type="email"],.wr-form.woocommerce input[type="password"]{
+	margin-left:0;
+	width:calc(100% - 145px);
+}
+}
+@media only screen and (max-width:410px){
+	.wr-form.woocommerce .woocommerce-form-row--wide label{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+.wr-form.woocommerce .woocommerce-form-row--wide input[type="text"],.wr-form.woocommerce .woocommerce-form-row--wide input[type="email"],.wr-form.woocommerce .woocommerce-form-row--wide input[type="password"]{
+	width:calc(100% - 32px);
+	text-align:center;
+}
+.wr-form.woocommerce .woocommerce-form-row--wide input[type="password"]{
+	margin-bottom:10px;
+}
+}
+.textarea-cont{
+	background-color:rgba(255, 255, 255, 0.2);
+	border:1px #e0e0e0 solid;
+	border-radius:3px;
+	padding:3px 15px;
+	width:calc(100% - 175px);
+	margin-left:20px;
+}

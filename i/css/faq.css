@@ -1,0 +1,97 @@
+@charset "utf-8";
+.bg-text{
+	background:url(../images/faq-bg.png) no-repeat center,linear-gradient(100deg,#01b5e8,#18bab4);
+	background-size:cover;
+}
+.page-text .location{
+	background-color:rgba(0, 0, 0, 0.08);
+}
+.search-b{
+	box-shadow:0px 1px 2px rgba(0, 0, 0, 0.15);
+}
+.accordion{
+	-webkit-transition-duration:0s;
+	transition-duration:0s;
+	-webkit-transition-timing-function:ease-out;
+	transition-timing-function:ease-out;
+}
+.accordion li{
+	background-color:#fff;
+	box-shadow:0 1px 1px rgba(0,0,0,.05);
+	border-radius:3px;
+	margin:5px 0;
+}
+.accordion .link{
+	cursor:pointer;
+	display:block;
+	width:calc(100% - 57px);
+	padding:10px 15px 10px 42px;
+	border-radius:3px;
+	-webkit-transition-duration:0s;
+	transition-duration:0s;
+	-webkit-transition-timing-function:ease-out;
+	transition-timing-function:ease-out;
+	color:#444;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.accordion li span{
+	margin-right:17px;
+	-webkit-transition-duration:0s;
+	transition-duration:0s;
+	-webkit-transition-timing-function:ease-out;
+	transition-timing-function:ease-out;
+	font-family:Medium;
+}
+.accordion li i.fa-circle-o{
+	position:absolute;
+	font-size:10px;
+	top:17px;
+	right:15px;
+	color:#777;
+}
+.accordion li i.fa-chevron-down {
+	position:absolute;
+	left:15px;
+	top:18px;
+	right:auto;
+	font-size:10px;
+	color:#666;
+}
+.accordion li.open .link span,.accordion li:hover .link {
+	color:#51ac79;
+}
+.accordion li.open i.fa-chevron-down,.accordion li:hover i.fa-chevron-down {
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
+.submenu{
+	display:none;
+	background:#fff;
+	-webkit-transition-duration:0s;
+	transition-duration:0s;
+	-webkit-transition-timing-function:ease-out;
+	transition-timing-function:ease-out;
+	width:calc(100% - 30px);
+	padding:10px 5px 15px 5px;
+	margin:0px 10px 0 10px;
+	border-top:1px #e0e0e0 dashed;
+	border-radius:0 0 3px 3px;
+	color:#444;
+}
+@media only screen and (max-width:750px){
+	.accordion .link{
+		font-size:14px;
+	}
+	.accordion li i.fa-circle-o,.accordion li i.fa-chevron-down{
+		top:16px;
+		font-size:9px;
+	}
+	.submenu{
+		font-size:13px;
+	}
+}

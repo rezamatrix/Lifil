@@ -1,0 +1,69 @@
+#vertical-nav {
+    width:150px;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+    /*float:right;*/
+    direction:rtl;
+    text-align:center;
+    z-index:1000;
+}
+#vertical-nav ul {
+    margin:0px;
+    padding:0px;
+    *border-top:1px #333 solid;/*IE 7*/
+}
+ul.vertical-top-level {
+    background-color:#333;
+}
+#vertical-nav li {
+    list-style:none;
+}
+ul.vertical-top-level li {
+    border-bottom:#fff solid 1px;
+}
+#vertical-nav a {
+    color:#fff;
+    display:block;
+    height:25px;
+    line-height:25px;
+    text-decoration:none;
+    width:100%;
+}
+#vertical-nav a:hover{
+    _background-color:#39C;/*IE 6*/
+    _display:block;/*IE 6*/
+}
+#vertical-nav li:hover {
+    background-color:#39C;
+    position:relative;
+}
+ul.vertical-sub-level {
+    display:none;
+}
+li:hover .vertical-sub-level {
+    background-color:#666;
+    border:#fff solid 1px;
+    display:block;
+    position:absolute;
+    right:150px;
+    top:0px;
+}
+ul.vertical-sub-level li {
+    border:none;
+    float:right;
+    width:150px;
+    *background-color:#666;/*IE 7*/
+}
+#vertical-nav .vertical-sub-level {
+    background-color:#666;
+}
+#vertical-nav .vertical-sub-level .vertical-sub-level {
+    background-color:#666;
+}
+li:hover .vertical-sub-level .vertical-sub-level {
+    display:none;
+}
+.vertical-sub-level li:hover .vertical-sub-level {
+    display:block;
+    *left:0px;/*IE 7*/
+}

@@ -1,0 +1,146 @@
+.bg-text{
+	background-color:#907cff;
+	background:url(../images/how-to-buy.png) no-repeat bottom,linear-gradient(100deg, #907cff 0%, #6eacff 91%);
+	background-size:cover;
+}
+.index-text p{
+    color:#fff;
+    text-shadow:0px 1px 2px rgba(0, 0, 0, 0.25);
+    font-family:Medium;
+    margin-bottom:15px;
+}
+.how-to p{
+	color:#444;
+}
+.how-to .notic{
+	margin-bottom:30px;
+	text-align:center;
+	color:#222;
+}
+.how-to a{
+	border-radius:5px;
+	padding:5px 15px;
+	color:#fff;
+	background-color:#51ac79;
+    font-family:Medium;
+	border-bottom:3px #47966a solid;
+	display:inline-block;
+	margin-top:30px;
+	box-shadow:0 3px 15px 0 rgba(0,0,0,.1);
+}
+.how-to a:hover{
+	background-color:#47966a;
+}
+.step{
+	margin:30px 0;
+}
+.step img{
+	width:400px;
+	border-radius:20px;
+	box-shadow:0 3px 15px 0 rgba(0,0,0,.1);
+	border:10px #fff solid;
+}
+.step:hover img.right{
+	transform:rotate(3deg) scale(1.05);
+}
+.step:hover img.left{
+	transform:rotate(-3deg) scale(1.05);
+}
+.step .entery{
+	width:calc(100% - 450px);
+}
+@-webkit-keyframes sonarWave{from{opacity:.4}to{-webkit-transform:scale(2);transform:scale(2);opacity:0}}@keyframes sonarWave{from{opacity:.4}to{-webkit-transform:scale(2);transform:scale(2);opacity:0}}
+.step .icon:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:25px;
+    z-index:0;
+    pointer-events:none;
+    -webkit-animation:sonarWave 2s linear infinite;
+    animation:sonarWave 2s linear infinite;
+}
+.step .icon{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	color:#fff;
+	font-weight:bold;
+	position:relative;
+	box-shadow:0 3px 15px 0 rgba(0,0,0,.1);
+	text-shadow:0px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.step .icon.c-1,.step .icon.c-1:before{
+	background-color:#61ff93;
+	background:linear-gradient(to bottom, #61ff93 0%,#00cdff 100%);
+}
+.step .icon.c-2,.step .icon.c-2:before{
+	background-color:#ffad6f;
+	background:linear-gradient(to bottom, #ffad6f 0%,#ff7d90 100%);
+}
+.step .icon.c-3,.step .icon.c-3:before{
+	background-color:#0191f6;
+	background:linear-gradient(0deg, #0191f6 0%, #1bcbf3 100%);
+}
+.step .icon.c-4,.step .icon.c-4:before{
+	background-color:#e177ff;
+	background:linear-gradient(to bottom, #e177ff 0%,#747cff 100%);
+}
+.step h3{
+	color:#333;
+	font-size:27px;
+	font-family:Medium;
+	margin-top:15px;
+}
+.step .leftgin{
+	text-align:left;
+}
+@media only screen and (max-width:750px){
+	.how-to a{
+		font-size:15px;
+	}
+	.step p,.index-text p,.how-to .notic{
+		font-size:14px;
+	}
+	.step h3{
+		font-size:20px;
+	}
+	.step .icon{
+		width:40px;
+		height:40px;
+		font-size:18px;
+	}
+	.how-to .notic{
+		margin-bottom:15px;
+	}
+	.step{
+		margin:15px 0;
+	}
+	.how-to a{
+		margin-top:15px;
+	}
+	.step img{
+		width:250px;
+	}
+	.step .entery{
+		width:calc(100% - 300px);
+	}
+}
+@media only screen and (max-width:570px){
+	.step .entery{
+		width:100%;
+	}
+	.step img{
+		width:calc(100% - 20px);
+	}
+	.step .leftgin{
+		text-align:justify;
+	}
+	.step .icon{
+		float:right;
+		margin:-25px 15px 0 0;
+	}
+}

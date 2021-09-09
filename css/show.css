@@ -1,0 +1,151 @@
+.slideshowBox{
+	position:absolute;   
+}
+
+ul.slideshow {
+	list-style:none;
+	overflow:hidden;
+	position:relative;
+	margin:0;
+	padding:0;
+	background: #000000;
+}	
+
+ul.slideshow li img{
+	height:300px;
+}
+
+.slideshowBox, ul.slideshow, ul.slideshow li{
+	width:970px;
+	height:250px;
+}
+
+#slideshow-caption {
+	height:70px;
+	width:970px;
+}
+
+ul.slideshow li {
+	position:absolute;
+	left:0;
+	right:0;
+	text-align:center;
+}
+
+ul.slideshow li.show {
+	z-index:500;	
+}
+
+ul img {
+	border:none;	
+}
+
+
+#slideshow-caption {
+	position:absolute;
+	bottom:0;
+	left:0;	
+	color:#FFFFFF;
+	font-style: normal;
+	font-size:13px;
+	font-family:Arial;
+	background: #000000;
+	background:url(../showimages/black_85.png);
+	z-index:500;
+	text-align:left;
+	
+}
+
+#slideshow-caption .slideshow-caption-container {
+	padding:5px 10px;		
+	z-index:1000;
+}
+
+#slideshow-caption a {
+	color: #FF00FF;
+	text-decoration:none;
+}
+
+#slideshow-caption a:hover {
+	color:#F5C745;
+}
+
+#slideshow-caption h3 {
+	margin:0;
+	padding:0;	
+	font-size: 13px;
+	font-family:Arial;
+	font-weight: normal;
+	font-style: normal;
+	
+}
+
+#slideshow-caption p {
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+.arrow
+{
+	position:absolute;
+	top:100px;
+	z-index:1500;
+	visibility:hidden;
+	opacity:0;
+	height:40px;
+	width:40px;
+	border:none;
+	outline:none;
+}
+
+.arrow a
+{
+	display:block;
+	height:100%;
+}
+
+.arrow.next
+{
+	right:20px;
+	background: url("../showimages/arrow_next_sprite.png") 0 0;
+}
+
+.arrow.next:hover
+{
+	background: url("../showimages/arrow_next_sprite.png") 0 -40px;
+}
+
+.arrow.prev
+{
+	left:20px;
+	background: url("../showimages/arrow_prev_sprite.png") 0 0;
+}
+
+.arrow.prev:hover
+{
+	background: url("../showimages/arrow_prev_sprite.png") 0 -40px;
+}
+
+.dots
+{
+	position:absolute;
+	z-index:1500;
+	bottom:10px;
+	right:10px;
+}
+
+.dot
+{
+	width:12px;
+	height:12px;
+	background:url(../showimages/dots.png) 0 0;
+	float:left;
+	margin-left:5px;
+	cursor:hand;
+	cursor:pointer;
+}
+
+.dot:hover, .dot.selected
+{
+	background:url(../showimages/dots.png) 0 -12px;
+}

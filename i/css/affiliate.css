@@ -1,0 +1,453 @@
+@charset "utf-8";
+.bg-text{
+	background-color:#008EDD;
+	background:url(../images/bg-affiliate.png),linear-gradient(150deg,#008EDD,#00bbb8);
+	background-size:cover;
+}
+.index-text p{
+	color:#fff;
+	text-shadow:0px 1px 2px rgba(0, 0, 0, 0.25);
+	font-family:Medium;
+	margin-bottom:15px;
+}
+.affiliate .create-link{
+	width:calc(100% - 460px);
+	background:url(../images/arrow.png) no-repeat left bottom;
+}
+.affiliate .left-side-form{
+	width:400px;
+	border-radius:5px;
+	padding:15px 20px;
+	background-color:#51ac79;
+	box-shadow:0 0 60px 0 rgba(0,0,0,.07);
+}
+.affiliate form.makelink .group{
+	padding:8px 0;
+	color:#fff;
+}
+.affiliate form.makelink .group label,.affiliate form.makelink input[name="referral_username"]{
+	font-family:Medium;
+}
+.affiliate form.makelink input[name="referral_url"],#referral_result{
+	float:left;
+	border-radius:40px;
+	border:0;
+	background-color:rgba(0, 0, 0, 0.08);
+	padding:7px 15px;
+	direction:ltr;
+	width:calc(100% - 30px);
+	margin-top:5px;
+	color:#fff;
+}
+.affiliate form.makelink input[name="referral_username"]{
+	text-align:center;
+	color:#333;
+	border:0;
+	background:rgba(0, 0, 0, 0.05);
+	font-size:27px;
+	padding:20px 0;
+	margin-top:20px;
+	border-radius:5px; 
+	box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.05);
+	width:calc(100% - 165px);
+}
+.affiliate form.makelink input[name="referral_url"]:focus,#referral_result:focus{
+	background-color:rgba(0, 0, 0, 0.15);
+}
+.affiliate form.makelink input[name="referral_url"]:hover,#referral_result:hover{
+	background-color:rgba(0, 0, 0, 0.12);
+}
+.affiliate form.makelink input[name="referral_username"]:focus{
+	box-shadow:inset 0px 0px 5px #51ac79;
+}
+.affiliate form.makelink input[name="referral_username"]:hover{
+	box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.name-wr,.name-wr-big{
+	font-size:23px;
+	font-family:Medium;
+	color:#333;
+	margin-bottom:5px;
+}
+.name-wr-big{
+	font-size:31px;
+	text-align:center;
+}
+.name-wr div,.name-wr-big div{
+	font-family:Medium;
+	color:#51ac79;
+	display:inline-block;
+}
+.affiliate .create-link p{
+	color:#444;
+}
+.banners,.why,.affiliate form.makelink{
+	margin:30px 0;
+}
+.log-reg{
+	margin:30px 10%;
+	width:80%;
+}
+.banners{
+	background:url(../images/banners-bg.png) no-repeat center;
+	background-size:contain;
+}
+.btns{
+	width:570px;
+	background-color:#fff;
+	border-radius:40px;
+	overflow:hidden;
+	margin:10px calc(50% - 285px) 20px calc(50% - 285px);
+	text-align:center;
+	box-shadow:0 0 60px 0 rgba(0,0,0,.07);
+}
+.btns span{
+	display:inline-block;
+	padding:2px 10px;
+	margin:6px 0;
+	cursor:pointer;
+	color:#333;
+	border-left:1px #eee solid;
+}
+.btns span[style="opacity: 1;"]{
+	font-family:Medium;
+}
+.btns span.last{
+	border:0;
+}
+.btns a{
+	color:#fff;
+	display:inline-block;
+	background-color:#51ac79;
+	padding:5.5px 12px;
+	margin:5px;
+	font-family:Medium;
+	border-radius:20px;
+}
+.tab-con{
+	width:500px;
+	margin:auto;
+	text-align:center;
+}
+.tab-con span{
+	margin:10px 60px 5px 0;
+	font-family:Medium;
+}
+textarea{
+	width:calc(100% - 152px);
+	direction:ltr;
+	font-family:inherit;
+	border:1px #eee solid;
+	background-size:50px 50px;
+	padding:6px 15px;
+	min-height:61px;
+	margin:0 60px;
+}
+.tab-con .solid{
+	height:1px;
+	background-color:#e0e0e0;
+	margin:30px 0;
+}
+.why{
+	width:calc(100% - 80px);
+	padding:0 40px;
+}
+.why .name-wr-big{
+	margin-bottom:25px;
+}
+.reason{
+	width:calc(25% - 40px);
+	padding:20px;
+	text-align:center;
+	background:#fff;
+	box-shadow:0 0 60px 0 rgba(0,0,0,.07);
+}
+.reason img{
+	max-height:90px;
+}
+.reason span{
+	color:#555;
+	font-family:Medium;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.btns span:hover{
+	color:#000;
+}
+.btns a:hover{
+	background-color:#3f855f;
+}
+.reason:hover img{
+	transform:scale(0.85);
+}
+textarea:hover{
+	border-color:#e0e0e0;
+}
+textarea:focus{
+	border-color:#51ac79;
+}
+.wr-form.woocommerce{
+	color:#333;
+	-webkit-transition-duration:0s;
+	transition-duration:0s;
+}
+.wr-form.woocommerce input[type="text"],.wr-form.woocommerce input[type="email"],.wr-form.woocommerce input[type="password"]{
+	background-color:rgba(255, 255, 255, 0.2);
+	border:1px #e0e0e0 solid;
+	border-radius:3px;
+	padding:3px 15px;
+	width:calc(100% - 175px);
+	margin-left:20px;
+}
+.wr-form.woocommerce label{
+	font-size:13px;
+	width:110px;
+	float:right;
+}
+.wr-form.woocommerce .required{
+	color:#ff1744}
+.wr-form.woocommerce .woocommerce-FormRow,.wr-form.woocommerce .form-group{
+	padding:3px 0;
+	width:100%;
+	float:right;
+}
+.wr-form.woocommerce .user-role,.woocommerce-LostPassword{
+	margin-top:10px;
+	width:100%;
+}
+.wr-form.woocommerce .user-role label{
+	width:auto;
+	margin:0 10px;
+}
+.wr-form.woocommerce label[for="tc_agree"]{
+	width:calc(100% - 20px);
+	float:left;
+}
+.wr-form.woocommerce input[type="radio"]{
+	margin:6px 0 0 5px;
+	float:right;
+}
+.wr-form.woocommerce .form-row small{
+	color:#666;
+	direction:ltr;
+	margin:8px 0 0 34px;
+	float:left;
+}
+.woocommerce-privacy-policy-text{
+	width:100%;
+	float:right;
+	margin:15px 0 10px 0;
+	font-size:12px;
+	text-align:center;
+}
+.wr-form input[type="submit"],button[type="submit"]{
+	float:right;
+	padding:3px 15px;
+	font-size:15px;
+	border:0;
+	background-color:#51ac79;
+	border-radius:3px;
+	color:#fff;
+	cursor:pointer;
+}
+.woocommerce-simple-registration-login-link{
+	float:right;
+	margin:2px 10px 0 0;
+}
+.woocommerce-simple-registration-login-link a{
+	color:#333;
+	font-size:14px;
+}
+.wr-form.woocommerce .woocommerce-form-row,.woocommerce-LostPassword{
+	width:100%;
+	float:right;
+	padding:5px 0;
+}
+.wr-form.woocommerce .woocommerce-form-row--wide label{
+	width:145px;
+}
+.wr-form.woocommerce .woocommerce-form-row--wide input[type="text"],.wr-form.woocommerce .woocommerce-form-row--wide input[type="email"],.wr-form.woocommerce .woocommerce-form-row--wide input[type="password"]{
+	width:calc(100% - 215px);
+	float:left;
+}
+.woocommerce-privacy-policy-text a,.woocommerce-LostPassword a,.wr-form.woocommerce label[for="tc_agree"] a,.wr-form input[type="submit"],.woocommerce-simple-registration-login-link a,button[type="submit"]{
+	font-family:Medium;
+}
+.woocommerce-privacy-policy-text a:hover,.woocommerce-LostPassword a:hover,.wr-form.woocommerce label[for="tc_agree"] a:hover,.woocommerce-simple-registration-login-link a:hover{
+	color:#3f855f;
+}
+.woocommerce-LostPassword a{
+	font-size:14px;
+}
+.wr-form input[type="submit"]:hover,button[type="submit"]:hover{
+	background-color:#3f855f;
+}
+.wr-form input[type="submit"]:focus,button[type="submit"]:focus{
+	background-color:#ff5252;
+}
+.wr-form.woocommerce input[type="text"]:hover,.wr-form.woocommerce input[type="email"]:hover,.wr-form.woocommerce input[type="password"]:hover{
+	border-color:#bdbdbd;
+	background-color:rgba(255, 255, 255, 0.3);
+}
+.wr-form.woocommerce input[type="text"]:focus,.wr-form.woocommerce input[type="email"]:focus,.wr-form.woocommerce input[type="password"]:focus{
+	border-color:#51ac79;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+.woocommerce-form__label-for-checkbox{
+	float:right;
+	margin:7px 10px 0 0;
+}
+.log-reg .desc{
+	width:300px;
+}
+.log-reg .forms{
+	width:calc(100% - 360px);
+	background-color:#fff;
+	border-radius:5px;
+	padding:30px;
+	box-shadow:0 0 60px 0 rgba(0,0,0,.07);
+}
+.text-desc{
+	width:calc(100% - 60px);
+	background-color:#008EDD;
+	background:linear-gradient(150deg,#008EDD,#00bbb8);
+	margin-top:20px;
+	color:#fff;
+	border-radius:5px 0 0 5px;
+	-webkit-transition-duration:0s;
+	transition-duration:0s;
+	text-shadow:0px 1px 2px rgba(0, 0, 0, 0.25);
+	padding:15px 30px;
+	box-shadow:0 0 60px 0 rgba(0,0,0,.07);
+}
+.text-desc.log-form{
+	background:linear-gradient(100deg, #907cff 0%, #6eacff 91%);
+}
+.text-desc h3{
+	font-family:Medium;
+}
+.text-desc span{
+	display:inline-block;
+	border-radius:40px;
+	padding:4px 15px;
+	margin:15px 0 10px 0;
+	background:rgba(0,0,0,0.15);
+	cursor:pointer;
+}
+.text-desc span:hover{
+	background:rgba(0,0,0,0.2);
+}
+@media only screen and (max-width:870px){
+	.affiliate .create-link{
+		width:100%;
+		background:none;
+	}
+	.affiliate form.makelink input[name="referral_username"]{
+		width:100%;
+	}
+	.affiliate .left-side-form{
+		width:calc(100% - 40px);
+		margin-top:10px;
+	}
+	.reason{
+		width:calc(33.33% - 40px);
+	}
+}
+@media only screen and (max-width:750px){
+	.index-text p{
+		font-size:14px;
+	}
+	.index-text{
+		padding:50px 0;
+	}
+	.banners,.why,.affiliate form.makelink,.log-reg{
+		margin:15px 0;
+	}
+	.affiliate form.makelink input[name="referral_username"]{
+		padding:10px 0;
+	}
+	.name-wr,.name-wr-big,.affiliate form.makelink input[name="referral_username"]{
+		font-size:18px;
+	}
+	.affiliate form.makelink input[name="referral_url"], #referral_result{
+		font-size:12px;
+	}
+	.affiliate .create-link p,.text-desc p{
+		font-size:14px;
+	}
+	.log-reg .forms,.text-desc{
+		width:calc(100% - 40px);
+		padding:20px;
+	}
+	.text-desc{
+		margin-top:0;
+		border-radius:5px 5px 0 0;
+	}
+	.log-reg .desc{
+		width:calc(100% - 40px);
+		margin:0 20px;
+	}
+	.text-desc span{
+		margin-bottom:5px;
+		float:left;
+	}
+	.text-desc h3{
+		font-size:18px;	
+	}
+	.log-reg{
+		width:100%;
+	}
+}
+@media only screen and (max-width:650px){
+	.btns{
+		width:100%;
+		margin:10px 0 20px 0;
+		overflow:auto;
+	}
+	.why{
+		width:100%;
+		padding:0;
+	}
+	textarea{
+		width:calc(100% - 32px);
+		margin:0;
+	}
+.wr-form.woocommerce input[type="text"],.wr-form.woocommerce input[type="email"],.wr-form.woocommerce input[type="password"]{
+	margin-left:0;
+	width:calc(100% - 145px);
+}
+}
+@media only screen and (max-width:600px){
+	.tab-con{
+		width:100%;
+	}
+	.btns span{
+		font-size:14px;
+	}
+}
+@media only screen and (max-width:560px){
+	.reason{
+    	width:calc(50% - 40px);
+	}
+	.reason span{
+		font-size:13px;
+	}
+}
+@media only screen and (max-width:410px){
+	.reason{
+    	width:calc(100% - 40px);
+	}
+	.wr-form.woocommerce .woocommerce-form-row--wide label{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+.wr-form.woocommerce .woocommerce-form-row--wide input[type="text"],.wr-form.woocommerce .woocommerce-form-row--wide input[type="email"],.wr-form.woocommerce .woocommerce-form-row--wide input[type="password"]{
+	width:calc(100% - 32px);
+	text-align:center;
+}
+.wr-form.woocommerce .woocommerce-form-row--wide input[type="password"]{
+	margin-bottom:10px;
+}
+}

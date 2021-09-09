@@ -1,0 +1,110 @@
+.modal{
+	position:relative;
+	z-index:100000000000000;
+}
+.modal .btn {
+	background:#0084b4;
+	border: #007aa8 solid 1px;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	padding:3px 8px;
+	text-decoration: none;
+	text-align: center;
+	min-width: 60px;
+	position: relative;
+	transition: color .1s ease;
+	font-family: Medium;
+}
+.modal .btn:hover {
+	background:#007aa8;
+}
+.btn.btn-big {
+	font-size: 18px;
+	padding: 15px 20px;
+	min-width: 100px;
+}
+.btn-close {
+	color: #aaa;
+	font-size:25px;
+	text-decoration: none;
+	position: absolute;
+	left:15px;
+	top:7px;
+}
+.btn-close:hover {
+	color: #919191;
+}
+.modal:before {
+	content: "";
+	display: none;
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+.modal:target:before {
+	display: block;
+}
+.modal:target .modal-dialog {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+	top:10%;
+}
+.modal-dialog {
+	background: #fefefe;
+	border: #333 solid 1px;
+	border-radius: 5px;
+	position: fixed;
+	left:calc(50% - 180px);
+	top: -100%;
+	z-index: 11;
+	width: 360px;
+	-webkit-transform: translate(0, -500%);
+	-ms-transform: translate(0, -500%);
+	transform: translate(0, -500%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-moz-transition: -moz-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+	height:80%;
+}
+.modal-body {
+	padding: 20px;
+	height: calc(100% - 160px);
+	overflow: auto;
+	position: absolute;
+}
+.modal-header,.modal-footer {
+	padding:10px 5px;
+	margin:0 10px;
+}
+.modal-header {
+	border-bottom: #eee solid 1px;
+}
+.modal-header h2 {
+	font-size: 20px;
+	font-weight:bold;
+}
+.modal-footer {
+	border-top: #eee solid 1px;
+	text-align:left;
+	position:absolute;
+	bottom:0;
+	width: calc(100% - 30px);
+}
+@media only screen and (max-width:400px){
+	.modal-dialog{
+	width:90%;
+	left:5%;
+	height:90%;
+}
+.modal:target .modal-dialog{
+	top:5%;
+}
+}

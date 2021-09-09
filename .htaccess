@@ -1,0 +1,5 @@
+RewriteEngine On
+SetEnvIf Request_URI ^/dlc.php no-gzip=1
+SetEnvIf Request_URI ^/dlfile.php no-gzip=1
+SetEnvIf Request_URI ^/dlfree.php no-gzip=1
+
